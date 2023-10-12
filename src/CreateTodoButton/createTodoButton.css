@@ -1,0 +1,28 @@
+
+.createButton{
+
+    background: transparent;
+    background-color: #4D77FF;
+    /* box-shadow: 0px 0px 5px 5px #8EACCD ; */
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 50px;
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    width: 55px;
+
+    transform: rotate(0);
+    transition: .3s ease;
+}
+
+.createButton:hover{
+    transform: rotate(225deg);
+}
