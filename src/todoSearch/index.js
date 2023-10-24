@@ -4,6 +4,7 @@ import { TodoContext } from '../TodoContext';
 
 function TodoSearch() {
 
+    // No vamos a recibir las propiedades a través de props, sino mediante useContext
     const { searchValue, setSearchValue } = useContext(TodoContext);
 
     return (

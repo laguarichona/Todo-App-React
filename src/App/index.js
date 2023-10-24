@@ -7,6 +7,7 @@ import { TodoProvider } from '../TodoContext';
 function App() {
 
   return (
+// Llamamos al Provider y al componente que tiene la Interfaz
     <TodoProvider>
       <AppUI />
     </TodoProvider>

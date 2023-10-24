@@ -4,10 +4,7 @@ import { TodoContext } from '../TodoContext';
 
 function TodoCounter({ }) {
 
-    const {
-        totalTodos: total,
-        completedTodos: completed,
-    } = useContext(TodoContext);
+    const {totalTodos: total, completedTodos: completed} = useContext(TodoContext);
 
     return (
         <h1 className="TodoCounter">

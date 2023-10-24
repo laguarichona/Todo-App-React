@@ -62,7 +62,8 @@ function TodoProvider({ children }) {
             {children}
 
         </TodoContext.Provider>
-        /* todo lo que esté dentro de value es lo que vamos a querer compartir con los componentes que estén dentro de este provider */
+        /* todo lo que esté dentro de value es lo que vamos a querer compartir con el componente que estén dentro de este provider y por defectos con sus hijos */
+        // De esta manera podemos consumir cada uno de los estados y estados derivados encontrados dentro de value
     );
 }
 
