@@ -8,6 +8,8 @@ import { LoadingStateTodos } from '../LoadingStateTodos';
 import { ErrorStateTodos } from '../ErrorStateTodos';
 import { TodoContext } from '../TodoContext';
 import { useContext } from 'react';
+import { Modal } from '../ModalTodo';
+import { TodoForm } from '../TodoForm';
 
 
 // Acuerdate al enviar props tienes que desestructurar al recibir
@@ -17,7 +19,9 @@ const AppUI = () => {
         error,
         searchedTodos,
         completeTodo,
-        deleteTodo } = useContext(TodoContext)
+        deleteTodo,
+        openModal,
+    } = useContext(TodoContext)
 
     return (
         <>
@@ -70,9 +74,12 @@ const AppUI = () => {
 
             <CreateTodoButton />
 
-            <Modal>
-                <h3>Aquí va la funcionalidad de crear nuevos Todos</h3>
-            </Modal>
+            {openModal && (
+                <Modal>
+                    <TodoForm />
+                </Modal>
+            )}
+
         </>
     )
 }

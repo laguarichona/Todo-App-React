@@ -18,6 +18,7 @@ function TodoProvider({ children }) {
     // console.log(todos);
 
     const [searchValue, setSearchValue] = useState('');
+    const [openModal, setOpenModal] = useState(false);
 
     //? Estados Derivados
 
@@ -58,6 +59,8 @@ function TodoProvider({ children }) {
             searchedTodos,
             completeTodo,
             deleteTodo,
+            openModal,
+            setOpenModal,
         }}>
             {children}
 

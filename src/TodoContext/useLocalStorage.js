@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 function useLocalStorage(itemName, initialValue) {
 
-    //Estados - Acualizarlos e Irlos Retornando en donde lo veamos conveniente
+    //Estados 
     const [itemState, setItemState] = useState(initialValue);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(false);

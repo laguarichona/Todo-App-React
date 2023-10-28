@@ -5,7 +5,7 @@
     background: #F9FBFC;
     border-radius: 5px;
     border: 2px solid #202329;
-    margin: 24px 0px;
+    margin: 40px 0px;
     height: 64px;
     width: 100%;
     font-size: 24px;
@@ -23,6 +23,10 @@
 }
 
 .TodoSearch:focus{
-    outline-color: #56BBF1;
+    outline-color: #4d77ff9d;
+    border: 1px solid #202329;
+
+    
+
     /* outline-color: #61DAFA ; */
 }
