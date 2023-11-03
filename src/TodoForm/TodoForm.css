@@ -1,5 +1,5 @@
 form {
-  width: 33.6rem;
+  width: 50vw;
   height: 40%;
   background-image: linear-gradient(to bottom, #ffcd70, #4d77ff);
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
@@ -10,6 +10,12 @@ form {
   justify-content: center;
 }
 
+@media screen and (max-width: 480px) {
+  form {
+    width: 80vw;
+  }
+}
+
 label {
   align-self: flex-start;
   padding: 10px 0px;
@@ -17,15 +23,16 @@ label {
 
 textarea {
   align-self: center;
-  width: 33.6rem;
+  width: 95%;
   height: 4rem;
   border-radius: 5px;
   border: 2px solid grey;
   font-size: 1rem;
   resize: vertical;
   max-height: 20rem;
-  color: #06060699;
+  color: #060606aa;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
 }
 
 textarea:focus {

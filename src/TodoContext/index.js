@@ -37,6 +37,16 @@ function TodoProvider({ children }) {
 
     //? Funciones que Modifican Los estados
 
+    // Al final llamamos nuestro actualizador 'savetodos', y le enviamos nuestro array saveTodos 
+    const addTodo = (text) => {
+        const newTodos = [...todos];
+        newTodos.push({
+            text,
+            completed: false
+        });
+        saveTodos(newTodos);
+    }
+
     const completeTodo = (i) => {
         const newTodos = [...todos];
         newTodos[i].completed = true;
@@ -61,6 +71,7 @@ function TodoProvider({ children }) {
             deleteTodo,
             openModal,
             setOpenModal,
+            addTodo,
         }}>
             {children}
 
