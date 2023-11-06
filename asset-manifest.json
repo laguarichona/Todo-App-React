@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/laguarichona/Todo-App-React/static/css/main.dcf7a86a.css",
-    "main.js": "/laguarichona/Todo-App-React/static/js/main.8bbfd98f.js",
-    "index.html": "/laguarichona/Todo-App-React/index.html",
-    "main.dcf7a86a.css.map": "/laguarichona/Todo-App-React/static/css/main.dcf7a86a.css.map",
-    "main.8bbfd98f.js.map": "/laguarichona/Todo-App-React/static/js/main.8bbfd98f.js.map"
+    "main.css": "/laguarichona/todo-app-react/static/css/main.dcf7a86a.css",
+    "main.js": "/laguarichona/todo-app-react/static/js/main.8bbfd98f.js",
+    "index.html": "/laguarichona/todo-app-react/index.html",
+    "main.dcf7a86a.css.map": "/laguarichona/todo-app-react/static/css/main.dcf7a86a.css.map",
+    "main.8bbfd98f.js.map": "/laguarichona/todo-app-react/static/js/main.8bbfd98f.js.map"
   },
   "entrypoints": [
     "static/css/main.dcf7a86a.css",
